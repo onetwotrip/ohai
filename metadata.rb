@@ -1,4 +1,4 @@
-name 'ohai'
+name 'ohai-8'
 maintainer 'Chef Software, Inc.'
 maintainer_email 'cookbooks@chef.io'
 license 'Apache 2.0'
@@ -16,3 +16,5 @@ source_url 'https://github.com/chef-cookbooks/ohai'
 issues_url 'https://github.com/chef-cookbooks/ohai/issues'
 
 chef_version '>= 12.1'
+
+conflicts 'ohai'
